@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT Project</title>
+</head>
+
+<body bgcolor="lightblue">
+    <h1 style="text-align: center; font-family: cursive; font-style: inherit; font-size: 50px;">
+        Smart Pumping System
+    </h1>
+    <p style="text-align: center; font-family: cursive ; font-size: 20px;"> 
+        A smart solution to automize your manual pumping system 
+    </p>
+
+    <table align="center" cellspacing=100>
+        <tr>
+            <td>
+                <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1663880/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+                <p style="font-family: 'Times New Roman', Times, serif; text-align: center; margin: 0px 0px 20px 0px; font-size: 19px; font-weight: 500;">Water Level</p>
+            </td>
+            <td>
+                <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1663880/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+                <p style="font-family: 'Times New Roman', Times, serif; text-align: center; margin: 0px 0px 20px 0px; font-size: 19px; font-weight: 500;">Motor : ON/OFF</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1663880/widgets/631989"></iframe>
+                <p style="font-family: 'Times New Roman', Times, serif; text-align: center; text-align: center; margin: 0px 0px 20px 0px; font-size: 19px; font-weight: 500;">Water Level (in cm)</p>
+            </td>
+            <td>
+                <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1663880/widgets/631990"></iframe>
+                <p style="font-family: 'Times New Roman', Times, serif; text-align: center; text-align: center; margin: 0px 0px 20px 0px; font-size: 19px; font-weight: 500;">Motor : ON/OFF</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1663880/widgets/633055"></iframe>
+                <p style="font-family: 'Times New Roman', Times, serif; text-align: center; text-align: center; margin: 0px 0px 20px 0px; font-size: 19px; font-weight: 500;">Water Level HIGH</p>
+            </td>
+            <td>
+                <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1663880/widgets/633056"></iframe>
+                <p style="font-family: 'Times New Roman', Times, serif; text-align: center; text-align: center; margin: 0px 0px 20px 0px; font-size: 19px; font-weight: 500;">Water Level LOW</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.442128899825!2d73.86562877510882!3d18.463621882618924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2ea950f616219%3A0x321bdae2cea9f064!2sVishwakarma%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1681568268460!5m2!1sen!2sin" width="450" height="260" style="border: 1px solid;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p style="font-family: 'Times New Roman', Times, serif; text-align: center; text-align: center; margin: 0px 0px 20px 0px; font-size: 19px; font-weight: 500;">Water Source Location</p>
+            </td>
+            <td>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.442128899825!2d73.86562877510882!3d18.463621882618924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2ea950f616219%3A0x321bdae2cea9f064!2sVishwakarma%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1681568268460!5m2!1sen!2sin" width="450" height="260" style="border: 1px solid;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p style="font-family: 'Times New Roman', Times, serif; text-align: center  ; text-align: center; margin: 0px 0px 20px 0px; font-size: 19px; font-weight: 500;">Tank Location</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
