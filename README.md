@@ -13,6 +13,8 @@ A web interface displaying graphs and indicators is also provided for the user t
 <img src="https://github.com/P-Dhandar15/IoT-Project-WebView/assets/130864863/6555f057-4f3e-46f1-8a8c-8ccaf4714c88" width="350" height="400">
 
 
+.
+We have also publised research paper on this project at **International Journal of Membrane Science and Technology**, 
+you may visit the site and download the paper to know further.
 
-We have also publised research paper on this project at **International Journal of Membrane Science and Technology**, you may visit the site and download the paper to know further.
 https://cosmosscholars.com/phms/index.php/ijmst/article/view/2815
