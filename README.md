@@ -9,7 +9,7 @@ If the tank is full the Esp8266 sends the ‘Motor OFF signal’ over the cloud 
 A web interface displaying graphs and indicators is also provided for the user to study and analyze the data from the system.
 
 **Scan the QR to visit the dashboard:**
-![image](https://github.com/P-Dhandar15/IoT-Project-WebView/assets/130864863/6555f057-4f3e-46f1-8a8c-8ccaf4714c88 | width=100)
+![image](https://github.com/P-Dhandar15/IoT-Project-WebView/assets/130864863/6555f057-4f3e-46f1-8a8c-8ccaf4714c88=250x250)
 
 We have also publised research paper on this project at **International Journal of Membrane Science and Technology**, you may visit the site and download the paper to know further.
 https://cosmosscholars.com/phms/index.php/ijmst/article/view/2815
